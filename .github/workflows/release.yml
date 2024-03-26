@@ -1,0 +1,37 @@
+name: Release
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - './version.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get version from version.json
+        id: get_info
+        run: |
+          echo "version=$(node -p "require('./version.json').version")" >> $GITHUB_ENV
+
+      - name: Get changelog
+        id: get_changelog
+        run: |
+          echo "changelog=$(sed -n '/## '${version}'/,/##/p' CHANGELOG.md | head -n -1 | tail -n +2)" >> $GITHUB_ENV
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.version }}
+          release_name: v${{ env.version }}
+          body: ${{ env.changelog }}
+          draft: false
+          prerelease: false
