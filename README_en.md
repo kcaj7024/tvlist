@@ -1,203 +1,262 @@
 <div align="center">
-  <img src="./static/images/logo.png" alt="logo"/>
-  <h1 align="center">IPTV-API</h1>
+  <img src="./static/images/logo.svg" alt="IPTV-API logo"  width="120" height="120"/>
 </div>
 
-<div align="center">Customize channels, automatically obtain live source interface, and generate usable results after speed test</div>
-<div align="justify">Default results include: 📺CCTV Channel, 💰CCTV Pay Channel, 📡Satellite TV Channel, 🏠Guangdong Channel, 🌊Hong Kong · Macao · Taiwan Channel, 🎬Movie Channel, 🎥Migu Live Streaming, 🏀Sports Channel, 🪁Animation channel, 🎮Game channel, 🎵Music channel, 🏛Classic Theater.</div>
+<h1 align="center">IPTV-API</h1>
 
-<details>
-  <summary>Specific channel</summary>
-  <div>
-  📺CCTV Channel: CCTV-1, CCTV-2, CCTV-3, CCTV-4, CCTV-5, CCTV-5+, CCTV-6, CCTV-7, CCTV-8, CCTV-9, CCTV-10, CCTV-11, CCTV-12, CCTV-13, CCTV-14, CCTV-15, CCTV-16, CCTV-17, CETV1, CETV2, CETV4, CETV5
-  </div>
-  <br>
-  <div>
-  💰CCTV Pay Channel: 文化精品, 央视台球, 风云音乐, 第一剧场, 风云剧场, 怀旧剧场, 女性时尚, 高尔夫网球, 风云足球, 电视指南, 世界地理, 兵器科技
-  </div>
-  <br>
-  <div>
-  📡Satellite TV Channel: 广东卫视, 香港卫视, 浙江卫视, 湖南卫视, 北京卫视, 湖北卫视, 黑龙江卫视, 安徽卫视, 重庆卫视, 东方卫视, 东南卫视, 甘肃卫视, 广西卫视, 贵州卫视, 海南卫视, 河北卫视, 河南卫视, 吉林卫视, 江苏卫视, 江西卫视, 辽宁卫视, 内蒙古卫视, 宁夏卫视, 青海卫视, 山东卫视, 山西卫视, 陕西卫视, 四川卫视, 深圳卫视, 三沙卫视, 天津卫视, 西藏卫视, 新疆卫视, 云南卫视
-  </div>
-  <br>
-  <div>
-  ☘️Guangdong Channel: 广东珠江, 广东体育, 广东新闻, 广东民生, 广东卫视, 大湾区卫视, 广州综合, 广州影视, 广州竞赛, 江门综合, 江门侨乡生活, 佛山综合, 深圳卫视, 汕头综合, 汕头经济, 汕头文旅, 茂名综合, 茂名公共
-  </div>
-  <br>
-  <div>
-  ☘️Local channels in each province
-  </div>
-  <br>
-  <div>
-  🌊Hong Kong · Macao · Taiwan Channel: 翡翠台, 明珠台, 凤凰中文, 凤凰资讯, 凤凰香港, 凤凰卫视, TVBS亚洲, 香港卫视, 纬来体育, 纬来育乐, J2, Viutv, 三立台湾, 无线新闻, 三立新闻, 东森综合, 东森超视, 东森电影, Now剧集, Now华剧, 靖天资讯, 星卫娱乐, 卫视卡式
-  </div>
-  <br>
-  <div>
-  🎬Movie Channel: CHC家庭影院, CHC动作电影, CHC高清电影, 淘剧场, 淘娱乐, 淘电影, NewTV惊悚悬疑, NewTV动作电影, 黑莓电影, 纬来电影, 靖天映画, 靖天戏剧, 星卫娱乐, 艾尔达娱乐, 经典电影, IPTV经典电影, 天映经典, 无线星河, 星空卫视, 私人影院, 东森电影, 龙祥电影, 东森洋片, 东森超视
-  </div>
-  <br>
-  <div>
-  🎥Migu Live Streaming: 咪咕直播1-45
-  </div>
-  <br>
-  <div>
-  🏀Sports Channel: CCTV-5, CCTV-5+, 广东体育, 纬来体育, 五星体育, 体育赛事, 劲爆体育, 爱体育, 超级体育, 精品体育, 广州竞赛, 深圳体育, 福建体育, 辽宁体育, 山东体育, 成都体育, 天津体育, 江苏体育, 安徽综艺体育, 吉林篮球, 睛彩篮球, 睛彩羽毛球, 睛彩广场舞, 风云足球, 足球频道, 魅力足球, 天元围棋, 快乐垂钓, JJ斗地主
-  </div>
-  <br>
-  <div>
-  🪁Animation channel: 少儿动画, 卡酷动画, 动漫秀场, 新动漫, 青春动漫, 爱动漫, 中录动漫, 宝宝动画, CN卡通, 优漫卡通, 金鹰卡通, 睛彩少儿, 黑莓动画, 炫动卡通, 24H国漫热播, 浙江少儿, 河北少儿科教, 七龙珠, 火影忍者, 海绵宝宝, 中华小当家, 斗破苍穹玄幻剧, 猫和老鼠, 经典动漫, 蜡笔小新, 漫画解说
-  </div>
-  <br>
-  <div>
-  🎮Game channel: 游戏风云, 游戏竞技, 电竞游戏, 海看电竞, 电竞天堂, 爱电竞
-  </div>
-  <br>
-  <div>
-  🎵Music channel: CCTV-15, 风云音乐, 音乐现场, 音乐之声, 潮流音乐, 天津音乐, 音乐广播, 音乐调频广播
-  </div>
-  <br>
-  <div>
-  🏛Classic Theater: 笑傲江湖, 天龙八部, 鹿鼎记, 仙剑奇侠传, 西游记, 三国演义, 水浒传, 新白娘子传奇, 天龙八部, 济公游记, 封神榜, 闯关东, 上海滩, 射雕英雄传
-  </div>
-</details>
-<br>
+<p align="center">
+    ⚡️ IPTV live-source automatic update tool that supports automatic collection, multi-source aggregation, availability validation, speed-test filtering, and playlist generation. Customize channel results with rich configuration, then output them as M3U, TXT, or API endpoints and import them into a player to watch.
+</p>
+
+<p align="center">
+    <a href="https://trendshift.io/repositories/12327" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12327" alt="Guovin%2Fiptv-api | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    <a href="https://trendshift.io/repositories/12327?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-12327" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/12327/weekly" alt="Guovin%2Fiptv-api | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    <a href="https://www.star-history.com/guovin/iptv-api">
+      <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=Guovin/iptv-api&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=Guovin/iptv-api&type=rank" /><img src="https://api.star-history.com/badge?repo=Guovin/iptv-api&type=rank" alt="Star History Rank" style="height: 55px;" height="55" /></picture>
+    </a>
+</p>
+
 <p align="center">
   <a href="https://github.com/Guovin/iptv-api/releases/latest">
-    <img src="https://img.shields.io/github/v/release/guovin/iptv-api" />
+    <img src="https://img.shields.io/github/v/release/guovin/iptv-api?label=Version" />
   </a>
   <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/python-%20%3D%203.13-47c219" />
+    <img src="https://img.shields.io/badge/python-3.14-47c219?label=Python" />
   </a>
   <a href="https://github.com/Guovin/iptv-api/releases/latest">
-    <img src="https://img.shields.io/github/downloads/guovin/iptv-api/total" />
+    <img src="https://img.shields.io/github/downloads/guovin/iptv-api/total?label=GUI%20Downloads" />
   </a>
   <a href="https://hub.docker.com/repository/docker/guovern/iptv-api">
-    <img src="https://img.shields.io/docker/pulls/guovern/iptv-api" />
+    <img src="https://img.shields.io/docker/pulls/guovern/iptv-api?label=Docker%20Pulls" />
+  </a>
+  <a href="https://github.com/Guovin/iptv-api/stargazers">
+    <img src="https://img.shields.io/github/stars/guovin/iptv-api?label=Stars" />
   </a>
   <a href="https://github.com/Guovin/iptv-api/fork">
-    <img src="https://img.shields.io/github/forks/guovin/iptv-api" />
+    <img src="https://img.shields.io/github/forks/guovin/iptv-api?label=Forks" />
   </a>
 </p>
 
+<div align="center">
+
 [中文](./README.md) | English
 
-- [✅ Features](#features)
-- [🔗 Latest results](#latest-results)
-- [⚙️ Config parameter](#Config)
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./docs/images/desktop-ui-en-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./docs/images/desktop-ui-en.png">
+    <img src="./docs/images/desktop-ui-en.png" alt="IPTV-API desktop GUI in English" width="100%"/>
+  </picture>
+  <details>
+    <summary>🌓 Toggle display mode</summary>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./docs/images/desktop-ui-en.png">
+      <source media="(prefers-color-scheme: light)" srcset="./docs/images/desktop-ui-en-dark.png">
+      <img src="./docs/images/desktop-ui-en-dark.png" alt="IPTV-API desktop GUI in English alternate theme" width="100%"/>
+    </picture>
+  </details>
+  <sub><strong>Windows / macOS desktop GUI</strong> · An intuitive interface for a more efficient workflow</sub>
+</div>
+
+<details open>
+<summary><strong>Contents</strong></summary>
+
+- [✅ Core Features](#core-features)
+- [⚙️ Configuration](#config)
 - [🚀 Quick Start](#quick-start)
+    - [Configuration and Results Directory](#configuration-and-results-directory)
     - [Workflow](#workflow)
     - [Command Line](#command-line)
     - [GUI Software](#gui-software)
     - [Docker](#docker)
+- [📚 Documentation](./docs/README.md)
 - [📖 Detailed Tutorial](./docs/tutorial_en.md)
 - [🗓️ Changelog](./CHANGELOG.md)
-- [❤️ Appreciate](#appreciate)
-- [👀 Follow(Update Subscription + Q&A)](#follow)
-- [📣 Disclaimer](#disclaimer)
+- [❤️ Donations](#donations)
+- [👀 Follow](#follow)
+- [⚠️ Disclaimer](#disclaimer)
 - [⚖️ License](#license)
 
-## Features
+</details>
 
-- ✅ Customize the template to generate the channel you want
-- ✅ Supports multiple source acquisition methods: multicast source, hotel source, subscription source, keyword search
-- ✅ Interface speed verification, obtain delay, speed, resolution, filter invalid interface
-- ✅ Preferences: IPv6, priority and quantity of interface source sorting, and interface whitelist
-- ✅ Scheduled execution at 6:00 AM and 18:00 PM Beijing time daily
-- ✅ Supports various execution methods: workflows, command line, GUI software, Docker(amd64/arm64/arm v7)
-- ✨ For more features, see [Config parameter](#Config)
+## Sponsors
 
-## Latest results
+| Sponsor | Service                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|:---:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="https://helodata.com?ref=iptvapi1"><img src="./docs/images/helodata.png" alt="Helodata" width="150"></a> | <p align="center"><a href="https://helodata.com?ref=iptvapi1"><img src="./docs/images/helodata-banner-en.png" alt="Helodata global proxy network" width="720"></a></p><a href="https://helodata.com?ref=iptvapi1"><strong>Helodata</strong></a> provides global proxy infrastructure covering 195+ countries and regions, with 80M+ ethically sourced residential IPs and support for Residential, ISP, Mobile, and Datacenter proxies, delivering stable and reliable data access for AI, web scraping, and automation applications.Use code <strong><code>iptvapi</code></strong> for an exclusive discount.             |
+| <a href="https://www.ipwo.net/?ref=githubGuovin"><img src="./docs/images/ipwo.webp" alt="IPWO" width="150"></a> | <p align="center"><a href="https://www.ipwo.net/?ref=githubGuovin"><img src="./docs/images/ipwo-banner.png" alt="IPWO residential proxy network" width="720"></a></p><a href="https://www.ipwo.net/?ref=githubGuovin"><strong>IPWO</strong></a> provides a stable residential proxy network for compliant scenarios such as public data collection, API debugging, automated testing, and multi-region access verification. Supports HTTP / HTTPS / SOCKS5. Coupon code: <strong><code>0105</code></strong>. Use it only with lawful authorization and in compliance with target site terms. |
 
-- Interface source:
+<p align="center">
+  <a href="mailto:360996299@qq.com?subject=Become%20a%20sponsor">Become a sponsor</a>
+</p>
 
-```bash
-https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
-```
+## Core Features
 
-```bash
-https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
-```
-
-or
-
-```bash
-https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u
-```
-
-```bash
-https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt
-```
-
-- Data source:
-
-```bash
-https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
-```
-
-or
-
-```bash
-https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/source.json
-```
+| Feature                       | Support | Description                                                                                                                                                 |
+|:------------------------------|:-------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Custom&nbsp;templates**          |    ✅    | Generate custom channel playlists                                                                                                                           |
+| **Channel&nbsp;aliases**           |    ✅    | 2,769 channels and 7,254 aliases (including 48 regex rules); automatically normalizes and matches name variants                                            |
+| **Multi-source&nbsp;aggregation**  |    ✅    | Local sources and subscription sources (supports UA configuration, detects invalid addresses and automatically disables them)                               |
+| **Stream&nbsp;relay**              |    ✅    | Improve playback on weak networks, supports direct browser playback, and automatic transcoding/adaptation                                                   |
+| **Replay/VOD&nbsp;interfaces**     |    ✅    | Fetching and generating replay/VOD interfaces                                                                                                               |
+| **EPG**                            |    ✅    | Fetch and display channel program guides                                                                                                                    |
+| **Channel&nbsp;logos**             |    ✅    | Custom channel logos, supports local additions or a remote library                                                                                          |
+| **Speed&nbsp;test&nbsp;&amp;&nbsp;validation** |    ✅    | Obtain latency, bitrate, resolution, fps; filter invalid interfaces; supports real-time output                                                              |
+| **Playback&nbsp;screenshots**      |    ✅    | Optional playback capture for channel validation, with GUI preview and batch refresh                                                                        |
+| **Ad&nbsp;filtering**              |    ✅    | Automatically identify and filter no-signal / advertisement placeholder loop sources                                                                        |
+| **Advanced&nbsp;preferences**      |    ✅    | Rate, resolution, blacklist/whitelist, location and ISP custom filters                                                                                      |
+| **Results&nbsp;management**        |    ✅    | Categorized storage and access of results, log recording, unmatched channel records, statistical analysis, freeze filtering/unfreeze rollback, data caching |
+| **Scheduled&nbsp;tasks**           |    ✅    | Scheduled or interval updates for GUI, CLI, and Docker; does not apply to GitHub Actions                                                                    |
+| **Pause&nbsp;and&nbsp;resume**     |    ✅    | Pause a desktop update and continue from its current progress                                                                                               |
+| **Multi-platform&nbsp;deployment** |    ✅    | Workflows, CLI, GUI, Docker (amd64/arm64/arm v7)                                                                                                            |
+| **More&nbsp;features**             |    ✨    | See [Configuration](#config) section for details                                                                                                            |
 
 ## Config
 
-| Configuration Item     | Description                                                                                                                                                                                                                                                                                                                                                                                          | Default Value     |
-|:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------|
-| open_driver            | Enable browser execution, If there are no updates, this mode can be enabled, which consumes more performance                                                                                                                                                                                                                                                                                         | False             |
-| open_empty_category    | Enable the No Results Channel Category, which will automatically categorize channels without results to the bottom                                                                                                                                                                                                                                                                                   | False             |
-| open_filter_resolution | Enable resolution filtering, interfaces with resolution lower than the minimum resolution (min_resolution) will be filtered                                                                                                                                                                                                                                                                          | True              |
-| open_filter_speed      | Enable speed filtering, interfaces with speed lower than the minimum speed (min_speed) will be filtered                                                                                                                                                                                                                                                                                              | True              |
-| open_hotel             | Enable the hotel source function, after closing it all hotel source working modes will be disabled                                                                                                                                                                                                                                                                                                   | True              |
-| open_hotel_foodie      | Enable Foodie hotel source work mode                                                                                                                                                                                                                                                                                                                                                                 | True              |
-| open_hotel_fofa        | Enable FOFA、ZoomEye hotel source work mode                                                                                                                                                                                                                                                                                                                                                           | True              |
-| open_keep_all          | Enable retain all search results, retain results with non-template channel names, recommended to be turned on when manually maintaining                                                                                                                                                                                                                                                              | False             |
-| open_m3u_result        | Enable the conversion to generate m3u file type result links, supporting the display of channel icons                                                                                                                                                                                                                                                                                                | True              |
-| open_multicast         | Enable the multicast source function, after disabling it all multicast sources will stop working                                                                                                                                                                                                                                                                                                     | True              |
-| open_multicast_foodie  | Enable Foodie multicast source work mode                                                                                                                                                                                                                                                                                                                                                             | True              |
-| open_multicast_fofa    | Enable FOFA multicast source work mode                                                                                                                                                                                                                                                                                                                                                               | True              |
-| open_online_search     | Enable keyword search source feature                                                                                                                                                                                                                                                                                                                                                                 | False             |
-| open_proxy             | Enable proxy, automatically obtains free available proxies, If there are no updates, this mode can be enabled                                                                                                                                                                                                                                                                                        | False             |
-| open_request           | Enable query request, the data is obtained from the network (only for hotel sources and multicast sources)                                                                                                                                                                                                                                                                                           | False             |
-| open_service           | Enable page service, used to control whether to start the result page service; if deployed on platforms like Qinglong with dedicated scheduled tasks, the function can be turned off after updates are completed and the task is stopped                                                                                                                                                             | True              |
-| open_sort              | Enable the sorting function (response speed, date, resolution)                                                                                                                                                                                                                                                                                                                                       | True              |
-| open_subscribe         | Enable subscription source feature                                                                                                                                                                                                                                                                                                                                                                   | True              |
-| open_update            | Enable updates, if disabled then only the result page service is run                                                                                                                                                                                                                                                                                                                                 | True              |
-| open_update_time       | Enable show update time                                                                                                                                                                                                                                                                                                                                                                              | True              |
-| open_url_info          | Enable display of API description information, used to control whether to show resolution, API protocol type, etc., the content after the $ symbol, playback software uses this information to describe the API                                                                                                                                                                                      | True              |
-| open_use_cache         | Enable the use of local cache data, applicable to the query request failure scenario (only for hotel sources and multicast sources)                                                                                                                                                                                                                                                                  | True              |
-| open_use_old_result    | Enable the use of historical update results (including the interface for template and result files) and merge them into the current update                                                                                                                                                                                                                                                           | True              |
-| app_port               | Page service port, used to control the port number of the page service                                                                                                                                                                                                                                                                                                                               | 8000              |
-| final_file             | Generated result file path                                                                                                                                                                                                                                                                                                                                                                           | output/result.txt |
-| hotel_num              | The number of preferred hotel source interfaces in the results                                                                                                                                                                                                                                                                                                                                       | 10                |
-| hotel_page_num         | Number of pages to retrieve for hotel regions                                                                                                                                                                                                                                                                                                                                                        | 1                 |
-| hotel_region_list      | List of hotel source regions, 'all' indicates all regions                                                                                                                                                                                                                                                                                                                                            | all               |
-| ipv4_num               | The preferred number of IPv4 interfaces in the result                                                                                                                                                                                                                                                                                                                                                | 5                 |
-| ipv6_num               | The preferred number of IPv6 interfaces in the result                                                                                                                                                                                                                                                                                                                                                | 5                 |
-| ipv6_support           | It is forced to consider that the current network supports IPv6 and skip the check                                                                                                                                                                                                                                                                                                                   | False             |
-| ipv_type               | The protocol type of interface in the generated result, optional values: ipv4, ipv6, all                                                                                                                                                                                                                                                                                                             | all               |
-| ipv_type_prefer        | Interface protocol type preference, prioritize interfaces of this type in the results, optional values: IPv4, IPv6, auto                                                                                                                                                                                                                                                                             | auto              |
-| min_resolution         | Minimum interface resolution, requires enabling open_filter_resolution to take effect                                                                                                                                                                                                                                                                                                                | 1920x1080         |
-| min_speed              | Minimum interface speed (M/s), requires enabling open_filter_speed to take effect                                                                                                                                                                                                                                                                                                                    | 0.2               |
-| multicast_num          | The number of preferred multicast source interfaces in the results                                                                                                                                                                                                                                                                                                                                   | 10                |
-| multicast_page_num     | Number of pages to retrieve for multicast regions                                                                                                                                                                                                                                                                                                                                                    | 1                 |
-| multicast_region_list  | Multicast source region list, 'all' indicates all regions                                                                                                                                                                                                                                                                                                                                            | all               |
-| online_search_num      | The number of preferred keyword search interfaces in the results                                                                                                                                                                                                                                                                                                                                     | 0                 |
-| online_search_page_num | Page retrieval quantity for keyword search channels                                                                                                                                                                                                                                                                                                                                                  | 1                 |
-| origin_type_prefer     | Preferred interface source of the result, the result is sorted according to this order, separated by commas, for example: hotel, multicast, subscribe, online_search; hotel: hotel source, multicast: multicast source, subscribe: subscription source, online_search: keyword search; If not filled in, it means that the source is not specified, and it is sorted according to the interface rate |                   |
-| recent_days            | Retrieve interfaces updated within a recent time range (in days), reducing appropriately can avoid matching issues                                                                                                                                                                                                                                                                                   | 30                |
-| request_timeout        | Query request timeout duration, in seconds (s), used to control the timeout and retry duration for querying interface text links. Adjusting this value can optimize update time.                                                                                                                                                                                                                     | 10                |
-| sort_timeout           | The timeout duration for speed testing of a single interface, in seconds (s). A larger value means a longer testing period, which can increase the number of interfaces obtained but may decrease their quality. A smaller value means a shorter testing time, which can obtain low-latency interfaces with better quality. Adjusting this value can optimize the update time.                       | 10                |
-| source_file            | Template file path                                                                                                                                                                                                                                                                                                                                                                                   | config/demo.txt   |
-| subscribe_num          | The number of preferred subscribe source interfaces in the results                                                                                                                                                                                                                                                                                                                                   | 10                |
-| urls_limit             | Number of interfaces per channel                                                                                                                                                                                                                                                                                                                                                                     | 10                |
+> [!NOTE]\
+> The following configuration items are located in `config/config.ini` and can be modified via the configuration file or
+> environment variables. Save changes and restart to apply. A standalone [configuration reference](./docs/config_en.md)
+> is also available.
+
+> [!TIP]
+> Result quality depends on the data sources and network conditions; adjust these settings to suit your needs.
+
+<details>
+<summary>Click to expand configuration parameters</summary>
+
+| Configuration Item       | Description                                                                                                                                                                                                                                                                                                                                 | Default Value                            |
+|:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------|
+| open_update              | Enable updates, used to control whether to update interfaces. If disabled, all working modes (getting interfaces and speed tests) stop.                                                                                                                                                                                                     | True                                     |
+| open_unmatch_category    | Enable unmatched channel category. Channels not matched by `source_file` will be written directly into this category and will not participate in speed testing                                                                                                                                                                              | False                                    |
+| open_empty_category      | Enable empty category, channels without results will automatically be classified to the bottom.                                                                                                                                                                                                                                             | False                                    |
+| open_update_time         | Enable display of update time.                                                                                                                                                                                                                                                                                                              | True                                     |
+| open_url_info            | Enable to display interface description information, used to control whether to display interface source, resolution, protocol type and other information (content after `$`). The player uses this information to describe the interface. If some players (such as PotPlayer) do not support parsing and cannot play, you can turn it off. | False                                    |
+| open_epg                 | Enable EPG function, support channel display preview content.                                                                                                                                                                                                                                                                               | True                                     |
+| open_subscribe_epg       | Enable automatically extracting EPG addresses from the url-tvg/x-tvg-url of subscription m3u headers and merging them into the EPG sources, no need to manually maintain `config/epg.txt`. Configured epg.txt sources take priority, subscription sources only fill channels they do not cover. Requires open_epg = True.                       | True                                     |
+| open_m3u_result          | Enable converting and generating m3u file type result links, supporting the display of channel icons.                                                                                                                                                                                                                                       | True                                     |
+| output_urls_limit        | Maximum interfaces exported per channel; legacy `urls_limit` remains supported.                                                                                                                                                                                                                     | 5                                        |
+| update_time_position     | Update time display position, takes effect only when `open_update_time` is enabled. Optional values: `top`, `bottom`. `top`: display at the top of the result, `bottom`: display at the bottom.                                                                                                                                             | top                                      |
+| language                 | Application language setting; Optional values: zh_CN, en                                                                                                                                                                                                                                                                                    | zh_CN                                    |
+| update_mode              | Scheduled execution update mode, does not apply to workflow; Optional values: interval, time; interval: execute by interval time, time: execute at specified time point                                                                                                                                                                     | interval                                 |
+| update_interval          | Scheduled execution update interval, only takes effect when update_mode = interval, unit hours, set to 0 or empty to run only once                                                                                                                                                                                                          | 12                                       |
+| update_times             | Scheduled execution update time point, only takes effect when update_mode = time, format HH:MM, supports multiple time points separated by commas                                                                                                                                                                                           |                                          |
+| update_startup           | Execute update at startup, used to control whether to execute an update immediately after the program starts                                                                                                                                                                                                                                | True                                     |
+| time_zone                | Time zone, can be used to control the time zone for scheduled execution or display update time; Optional values: Asia/Shanghai or other time zone codes                                                                                                                                                                                     | Asia/Shanghai                            |
+| source_file              | Template file path.                                                                                                                                                                                                                                                                                                                         | config/demo.txt                          |
+| final_file               | Generated result file path.                                                                                                                                                                                                                                                                                                                 | output/result.txt                        |
+| open_realtime_write      | Enable real-time writing of result files, you can access and use the updated results during the speed measurement process                                                                                                                                                                                                                   | True                                     |
+| open_service             | Enable page service, used to control whether to start the result page service. If using platforms such as Qinglong with scheduled tasks, and you need the program to exit after update is finished, you can disable this.                                                                                                                   | True                                     |
+| service_port             | HTTP service access port. Nginx listens here when desktop streaming is enabled; new configurations normally change only this port.                                                                                                                                                                                                          | 8080                                     |
+| public_url               | Recommended complete public URL, such as `https://iptv.example.com` or `http://host:8088`, used for playlist, EPG, logo, and service links.                                                                                                                                                                                                  |                                          |
+| app_port                 | Advanced compatibility setting: internal Flask API port. Normally do not change or use it as the user-facing port.                                                                                                                                                                                                                          | 5180                                     |
+| public_scheme            | Advanced compatibility setting: legacy public scheme, used only when `public_url` is empty.                                                                                                                                                                                                                                                 | http                                     |
+| public_domain            | Advanced compatibility setting: legacy public host, used only when `public_url` is empty; defaults to the local IP.                                                                                                                                                                                                                         | 127.0.0.1                                |
+| cdn_url                  | CDN proxy acceleration address(es) for subscription sources, channel logos and other resources. Multiple are supported (comma-separated): subscription and EPG sources fall back through them in order until one succeeds; channel logos use the first address.                                                                                                                                                                                                                     |                                          |
+| http_proxy               | HTTP proxy address used only to fetch subscription sources and EPG data; speed tests, media probes, and screenshots remain direct                                                                                                                                                                                                            |                                          |
+| open_local               | Enable local source function, will use the data in the template file and the local source file (`local.txt`).                                                                                                                                                                                                                               | True                                     |
+| open_subscribe           | Enable subscription source function.                                                                                                                                                                                                                                                                                                        | True                                     |
+| open_auto_disable_source | Enable automatic disabling of invalid sources. Failed entries are prefixed with # in `config/subscribe.txt` and `config/epg.txt`; Actions does not commit these changes.                                                                                                                                                                    | False                                    |
+| open_history             | Enable using historical update results (including interfaces from template and result files), merged into this update; Actions only attempts to restore history from a short-lived cache.                                                                                                                                                  | True                                     |
+| open_headers             | Enable to use the request header verification information contained in M3U, used for speed measurement and other operations, some players may not support playing this type of interface with verification information                                                                                                                    | True                                     |
+| user_agent               | Global request User-Agent, used for fetching subscription sources, speed testing, and writing into the m3u result (no need to enable `open_headers`). Leave empty to use the built-in default UA. Priority: interface's own UA > subscription URL UA > global UA > built-in default UA.                                                     |                                          |
+| open_speed_test          | Enable speed test functionality to obtain response time, rate, and resolution.                                                                                                                                                                                                                                                              | True                                     |
+| speed_test_mode          | Speed-test workflow: `quick`, `full`, or `manual`; `manual` only collects candidates and leaves testing to GUI actions.                                                                                                                                                                            | quick                                    |
+| speed_test_target        | Valid-result target per channel in quick speed-test mode; `0` follows `output_urls_limit`.                                                                                                                                                                                                         | 0                                        |
+| quick_test_target        | Readable alias for `speed_test_target`; a non-zero value takes precedence.                                                                                                                                                                                                                         | 0                                        |
+| open_stream_screenshot   | Automatically capture a playback screenshot for playable candidates. This adds FFmpeg decoding load and update time; manual GUI capture remains available when disabled.                                                                                                                                                                     | False                                    |
+| stream_screenshot_timeout | Screenshot timeout for a single interface, in seconds.                                                                                                                                                                                                                                                                                       | 5                                        |
+| stream_screenshot_width  | Maximum playback screenshot width, preserving the original aspect ratio.                                                                                                                                                                                                                                                                     | 640                                      |
+| open_filter_resolution   | Enable resolution filtering. Interfaces below the minimum resolution (`min_resolution`) will be filtered. GUI users need to manually install FFmpeg; the program will call FFmpeg to obtain interface resolution. Recommended to enable: although it increases speed test time, it more effectively distinguishes playable interfaces.      | True                                     |
+| open_filter_speed        | Enable speed filtering. Interfaces below the minimum speed (`min_speed`) will be filtered.                                                                                                                                                                                                                                                  | True                                     |
+| open_filter_ad           | Enable advertisement filtering. Automatically identify and filter no-signal / advertisement placeholder loop sources (short looping playlists containing `#EXT-X-ENDLIST`, or segment URLs containing ad keywords). The check reuses the playlist already fetched during the speed test stage, adding no extra requests or speed test time. | True                                     |
+| open_full_speed_test     | Enable full speed test for all channel candidates (except whitelist entries); otherwise testing stops after `speed_test_target` valid results.                                                                                                                                                   | False                                    |
+| open_supply              | Enable compensation mechanism mode. When the number of channel interfaces is insufficient, interfaces that do not meet the conditions (such as lower than minimum speed) but may still be available will be added to the result to avoid empty results. Once enabled, interfaces that do not match the `location`/`isp` will no longer be dropped directly, but downranked to the end of the channel result as a supplement.                                                                                     | False                                    |
+| sort_by                  | Result sorting dimensions, control the sorting priority of interfaces within each channel, compared in order from front to back, comma-separated. Optional values: `speed` (higher first), `delay` (lower first), `resolution` (higher first), e.g.: `resolution,speed`.                                                                    | speed                                    |
+| min_resolution           | Minimum interface resolution, takes effect only when `open_filter_resolution` is enabled.                                                                                                                                                                                                                                                   | 1280x720                                 |
+| max_resolution           | Maximum interface resolution, takes effect only when `open_filter_resolution` is enabled.                                                                                                                                                                                                                                                   | 3840x2160                                |
+| min_speed                | Minimum interface speed (unit: MiB/s), takes effect only when `open_filter_speed` is enabled.                                                                                                                                                                                                                                               | 0.5                                      |
+| resolution_speed_map     | Resolution and rate mapping relationship, used to control the minimum rate requirements for interfaces of different resolutions, the format is resolution:speed, multiple mapping relationships are separated by commas                                                                                                                     | 1280x720:0.2,1920x1080:0.5,3840x2160:1.0 |
+| performance_mode        | Performance mode. `auto` selects settings from device or container CPU and memory, `powersave` minimizes resource usage, `balance` balances resources and speed, and `fast` utilizes high-performance devices.                                                                 | auto                                     |
+| speed_test_limit         | Advanced network speed test concurrency override. `0` lets the performance mode decide automatically; a positive value overrides speed test concurrency without changing media probe or source fetch concurrency.                                                            | 0                                        |
+| speed_test_timeout       | Single interface speed test timeout duration in seconds. Larger values increase speed test time and number of interfaces obtained (but with lower average quality); smaller values reduce time and favor low-latency, higher-quality interfaces.                                                                                            | 10                                       |
+| speed_test_filter_host   | Use Host address to de-duplicate speed tests. Channels with the same Host share speed test data. Enabling this can greatly reduce speed test time but may cause inaccurate results.                                                                                                                                                         | False                                    |
+| request_timeout          | Query request timeout duration in seconds, used to control timeout and retry duration when querying interface text links. Adjusting this value can optimize update time.                                                                                                                                                                    | 10                                       |
+| ipv6_support             | Force treating the current network as IPv6-supported and skip detection.                                                                                                                                                                                                                                                                    | False                                    |
+| ipv_type                 | Protocol type of interfaces in the generated result. Optional values: `ipv4`, `ipv6`, `all`.                                                                                                                                                                                                                                                | all                                      |
+| ipv_type_prefer          | Interface protocol type preference. Preferred type will be ordered earlier in the result. Optional values: `ipv4`, `ipv6`, `auto`.                                                                                                                                                                                                          | auto                                     |
+| location                 | Interface location filter. Result will only contain interfaces whose location matches the given keywords (comma-separated). Leave empty to not restrict by location. Recommended to set near the end user to improve playback experience.                                                                                                   |                                          |
+| isp                      | Interface operator filter. Result will only contain interfaces whose operator matches the given keywords (comma-separated). Leave empty to not restrict by operator.                                                                                                                                                                        |                                          |
+| origin_type_prefer       | Preferred interface source ordering. The result is sorted in this order (comma-separated). Example: `local,subscribe`. Leave empty to not specify and sort by interface speed instead.                                                                                                                                                      |                                          |
+| local_num                | Preferred number of local source interfaces in the result.                                                                                                                                                                                                                                                                                  | 10                                       |
+| subscribe_num            | Preferred number of subscription source interfaces in the result.                                                                                                                                                                                                                                                                           | 10                                       |
+| logo_url                 | Channel logo library URL.                                                                                                                                                                                                                                                                                                                   |                                          |
+| logo_type                | Channel logo file type.                                                                                                                                                                                                                                                                                                                     | png                                      |
+| open_subscribe_logo      | Enable to prioritize the tvg-logo address provided in the subscription m3u, only fall back to the logo library when the subscription source does not provide one.                                                                                                                                                                            | True                                     |
+| open_rtmp                | Enable RTMP push function. Recommended only for owned or authorized content. Requires FFmpeg installed and uses local bandwidth to improve playback experience.                                                                                                                                                                            | True                                     |
+| nginx_http_port          | Advanced compatibility setting: legacy HTTP port name; use `service_port` for new configurations.                                                                                                                                                                                                                                           | 8080                                     |
+| nginx_rtmp_port          | Advanced setting: Nginx RTMP protocol port, needed only by streaming clients.                                                                                                                                                                                                                                                               | 1935                                     |
+| rtmp_idle_timeout        | RTMP channel idle stop-streaming timeout in seconds. When no one watches for longer than this duration, streaming is stopped, helping reduce server resource usage.                                                                                                                                                                         | 300                                      |
+| rtmp_max_streams         | Maximum number of concurrent RTMP push streams. Controls how many channels can be pushed at the same time. Larger values increase server load; tune to optimize resource usage.                                                                                                                                                             | 10                                       |
+| rtmp_transcode_mode      | Push streaming transcoding mode. `copy` means no transcoding — output is copied to save CPU consumption as much as possible. `auto` means adaptive transcoding to match players; this increases CPU usage but can improve compatibility.                                                                                                    | copy                                     |
+
+</details>
 
 ## Quick Start
 
+### Configuration and Results Directory
+
+> [!NOTE]
+> This project does not provide data sources. Add your own before generating results. See [how to add data sources](./docs/tutorial_en.md#add-data-sources-and-more).
+
+```
+iptv-api/                  # Project root directory
+├── config                 # Configuration files directory, includes config files, templates, etc.
+│   └── hls                # Local HLS streaming files directory, used to store video files named after channel names
+│   └── local              # Local source files directory; used to store multiple local source files; supports txt/m3u formats
+│   └── config.ini         # Configuration parameters file
+│   └── demo.txt           # Channel template
+│   └── alias.txt          # Channel aliases
+│   └── blacklist.txt      # Interface blacklist
+│   └── whitelist.txt      # Interface whitelist
+│   └── subscribe.txt      # Channel subscription sources list
+│   └── local.txt          # Local source file
+│   └── epg.txt            # EPG subscription sources list
+└── output                 # Local runtime results; do not commit this directory to Git
+    └── data               # Result data cache directory
+    └── epg                # EPG result directory
+    └── ipv4               # IPv4 result directory
+    └── ipv6               # IPv6 result directory
+    └── result.m3u/txt     # m3u/txt result
+    └── hls.m3u/txt        # RTMP hls stream result
+    └── log                # Log files directory
+        └── log.log        # Runtime log with timestamps, levels, and run IDs
+        └── runtime.jsonl  # Structured runtime events
+        └── result.log     # Valid result log
+        └── speed_test.log # Speed test log
+        └── statistic.log  # Statistics result log
+        └── unmatch.log    # Unmatched channel records
+        └── *.jsonl        # Structured JSON Lines companions
+```
+
 ### Workflow
 
-Fork this project and initiate workflow updates, detailed steps are available
-at [Detailed Tutorial](./docs/tutorial_en.md)
+> [!WARNING]
+> GitHub Actions is intended only for occasional manual generation. Results are published to the fixed
+> `playlist-latest` prerelease and are no longer committed to Git. Legacy
+> `raw.githubusercontent.com/.../output/...` URLs no longer update. Use Docker, the command line, or the GUI for
+> scheduled runs.
+
+After forking the project, manually run the `Generate playlist manually` workflow. Results replace the assets in the
+`playlist-latest` prerelease without creating Git commits. Stable URL examples:
+
+```text
+https://github.com/your-github-username/repository-name/releases/download/playlist-latest/result.m3u
+https://github.com/your-github-username/repository-name/releases/download/playlist-latest/result.txt
+```
+
+See the [detailed tutorial](./docs/tutorial_en.md#workflow-deployment) for setup and migration steps.
 
 ### Command Line
 
@@ -223,110 +282,188 @@ pipenv run service
 
 ### GUI Software
 
-1. Download [IPTV-API update software](https://github.com/Guovin/iptv-api/releases), open the software, click update to
-   complete the update
+The desktop GUI is the only supported graphical interface for Windows and macOS. It provides one-click updates, live progress, channel and result management, retesting, RTMP monitoring, source configuration, and task history. Docker deployments use web result pages and do not include this desktop interface.
 
-2. Or run the following command in the project directory to open the GUI software:
+Install dependencies and start the desktop app:
 
 ```shell
+pipenv install --dev
 pipenv run ui
 ```
 
-<img src="./docs/images/ui.png" alt="IPTV-API update software" title="IPTV-API update software" style="height:600px" />
+Build a package for the current platform:
+
+```shell
+pipenv run ui_build
+```
+
+> [!WARNING]
+> The legacy Tkinter interface is deprecated, retained temporarily for existing users, and scheduled for removal in a future release. It no longer receives maintenance, bug fixes, or new features. During the transition, start it with `pipenv run legacy_ui` or package it with `pipenv run legacy_ui_build`.
+
+Resolution probing requires FFmpeg. Windows can use the bundled nginx-rtmp runtime. On macOS the app detects an installed nginx build with the RTMP module; `IPTV_API_NGINX_PATH` and `IPTV_API_NGINX_RTMP_MODULE` can explicitly select the executable and dynamic module.
 
 ### Docker
 
-- iptv-api (Full version): Higher performance requirements, slower update speed, high stability and success rate. Set
-  open_driver = False to switch to the lite running mode (recommended for hotel sources, multicast sources, and online
-  searches)
-- iptv-api:lite (Condensed version): Lightweight, low performance requirements, fast update speed, stability uncertain (
-  recommend using this version for the subscription source)
+#### 1. Deployment with Compose (recommended)
 
-It's recommended to try each one and choose the version that suits you
+Download the [docker-compose.yml](./docker-compose.yml) or create one by copying the content (internal parameters can
+be changed as needed), then run the following command in the path where the file is located:
 
-1. Pull the image:
+```bash
+docker compose up -d
+```
 
-- iptv-api
+#### 2. Manual deployment with commands
+
+##### (1) Pull the image
 
 ```bash
 docker pull guovern/iptv-api:latest
 ```
 
-- iptv-api:lite
+> [!CAUTION]
+> If the official image cannot be pulled, use the following proxy; it may provide an older image version.
 
 ```bash
-docker pull guovern/iptv-api:lite
+docker pull docker.1ms.run/guovern/iptv-api:latest
 ```
 
-2. Run the container:
-
-- iptv-api
+##### (2) Run the container
 
 ```bash
-docker run -d -p 8000:8000 guovern/iptv-api
+docker run -d -p 80:8080 guovern/iptv-api
 ```
 
-- iptv-api:lite
+**Environment variables:**
+
+| Variable        | Description                                                                                         | Default   |
+|:----------------|:----------------------------------------------------------------------------------------------------|:----------|
+| PUBLIC_URL      | Recommended complete public URL, such as `http://192.168.1.10` or `https://iptv.example.com`         |           |
+| PUBLIC_DOMAIN   | Compatibility setting: public domain or IP used when `PUBLIC_URL` is empty                           | 127.0.0.1 |
+| PUBLIC_PORT     | Compatibility setting: mapped host port used when `PUBLIC_URL` is empty                              | 80        |
+| NGINX_HTTP_PORT | Advanced compatibility setting: internal container HTTP port; normally keep the default              | 8080      |
+
+> [!NOTE]
+> When IPv6 is enabled on the host/Docker, the container automatically listens on IPv6 addresses as well, with no extra configuration; in IPv4-only or IPv6-disabled environments it is skipped automatically.
+
+If you need to modify environment variables, add the following parameters after the above run command:
 
 ```bash
-docker run -d -p 8000:8000 guovern/iptv-api:lite
+# Recommended: set the complete public URL
+-e PUBLIC_URL=https://iptv.example.com
 ```
 
-Volume Mount Parameter (Optional):
-This allows synchronization of files between the host machine and the container. Modifying templates, configurations,
-and retrieving updated result files can be directly operated in the host machine's folder.
+With the repository Compose file, change only the host port through `PORT`, for example
+`PORT=8088 docker compose up -d`. Compose updates both the port mapping and legacy `PUBLIC_PORT`.
+An unset or empty `PUBLIC_URL` does not override `public_url` in the mounted configuration.
 
-Taking the host path /etc/docker as an example:
+In addition to the environment variables listed above, you can also override the [configuration items](#config) in the
+configuration file via environment variables.
 
-- iptv-api：
+**Mounts:** used to synchronize files between the host and the container. You can edit templates, configs, and access
+generated result files directly on the host. Append the following options to the run command above:
 
 ```bash
-docker run -v /etc/docker/config:/iptv-api/config -v /etc/docker/output:/iptv-api/output -d -p 8000:8000 guovern/iptv-api
+# Mount config directory
+-v /iptv-api/config:/iptv-api/config
+# Mount output directory
+-v /iptv-api/output:/iptv-api/output
 ```
 
-- iptv-api:lite：
+##### 3. Update Results
 
-```bash
-docker run -v /etc/docker/config:/iptv-api-lite/config -v /etc/docker/output:/iptv-api-lite/output -d -p 8000:8000 guovern/iptv-api:lite
-```
+| Endpoint        | Description                                     |
+|:----------------|:------------------------------------------------|
+| /               | Default endpoint                                |
+| /m3u            | m3u format endpoint                             |
+| /txt            | txt format endpoint                             |
+| /ipv4           | ipv4 default endpoint                           |
+| /ipv6           | ipv6 default endpoint                           |
+| /ipv4/txt       | ipv4 txt endpoint                               |
+| /ipv6/txt       | ipv6 txt endpoint                               |
+| /ipv4/m3u       | ipv4 m3u endpoint                               |
+| /ipv6/m3u       | ipv6 m3u endpoint                               |
+| /content        | Endpoint content                                |
+| /log/result     | Log of valid results                            |
+| /log/speed-test | Log of all interfaces involved in speed testing |
+| /log/statistic  | Log of statistics results                       |
+| /log/unmatch    | Log of unmatched channels                       |
 
-Port environment variables:
+Log endpoints return the compatible plain-text format by default; add `?format=jsonl` for structured JSON Lines. The CLI uses a dynamic multi-task display in interactive terminals and automatically falls back to stable line-oriented output in Docker, CI, redirected output, or when `IPTV_API_PLAIN_OUTPUT=1` is set.
 
-```bash
--e APP_PORT=8000
-```
+**RTMP Streaming:**
 
-3. Update results:
+> [!WARNING]
+> Enabling streaming relays obtained interfaces such as subscription sources by default. Use this only for content you own, are authorized to redistribute, or need for closed/internal testing. In Mainland China, ensure content authorization, copyright, network-audiovisual, and broadcasting requirements are met; do not distribute, relay, or publicly expose unauthorized live streams or program sources.
 
-- API address: ip:8000
-- M3u api：ip:8000/m3u
-- Txt api：ip:8000/txt
-- API content: ip:8000/content
-- Speed test log: ip:8000/log
+For server deployments, set the complete public address through `PUBLIC_URL`; legacy `PUBLIC_DOMAIN` and `PUBLIC_PORT` remain supported. To stream local videos, create `config/hls` and place files named after their channels in it; the program streams them to the corresponding channels.
+
+| Streaming Endpoint | Description                          |
+|:-------------------|:-------------------------------------|
+| /hls               | hls streaming endpoint               |
+| /hls/txt           | hls txt streaming endpoint           |
+| /hls/m3u           | hls m3u streaming endpoint           |
+| /hls/ipv4          | hls ipv4 default streaming endpoint  |
+| /hls/ipv6          | hls ipv6 default streaming endpoint  |
+| /hls/ipv4/txt      | hls ipv4 txt streaming endpoint      |
+| /hls/ipv4/m3u      | hls ipv4 m3u streaming endpoint      |
+| /hls/ipv6/txt      | hls ipv6 txt streaming endpoint      |
+| /hls/ipv6/m3u      | hls ipv6 m3u streaming endpoint      |
+| /stat              | Streaming status statistics endpoint |
+
+[How to use streaming?](./docs/tutorial_en.md#streaming-usage-tutorial)
 
 ## Changelog
 
 [Changelog](./CHANGELOG.md)
 
-## Appreciate
+## Follow
+
+### GitHub
+
+Follow my GitHub account [Guovin](https://github.com/Guovin) to find more useful projects
+
+### WeChat public account
+
+WeChat public account search for Govin, or scan the code to receive updates and learn more tips:
+
+> [!TIP]
+> Reply with `cdn` to get an acceleration address for subscription sources, channel logos, and related resources.
+
+![Wechat public account](./static/images/qrcode.jpg)
+
+### Contact Me
+
+Contact via email: [360996299@qq.com](mailto:360996299@qq.com)
+
+## Donations
 
 <div>Development and maintenance are not easy, please buy me a coffee ~</div>
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/govin)
 
 | Alipay                                | Wechat                                    |
 |---------------------------------------|-------------------------------------------|
 | ![Alipay](./static/images/alipay.jpg) | ![Wechat](./static/images/appreciate.jpg) |
 
-## Follow
-
-Wechat public account search for Govin, or scan the code to receive updates and learn more tips:
-
-![Wechat public account](./static/images/qrcode.jpg)
-
 ## Disclaimer
 
-This project is for learning and communication purposes only. All interface data comes from the internet. If there is
-any infringement, please contact us for removal.
+- This project is provided as a tool/framework only; it does not include, host, cache, or guarantee any live streams,
+  copyrighted programs, or other third-party content. Users must add their own data sources and ensure that the data
+  sources used and their use comply with applicable laws and regulations in their jurisdiction.
+- Users are solely responsible for any content obtained, distributed, relayed, or played through this project. Do not
+  use it to distribute, share, relay, or watch copyrighted content without authorization, especially in Mainland China
+  where content authorization, licensing, filing/permit, and other regulatory requirements may apply.
+- The RTMP/HLS push features are intended only for owned content, explicitly authorized content, or closed-environment
+  technical testing. If you cannot verify authorization, disable `open_rtmp` and do not expose the related endpoints to
+  the public internet.
+- When using this project, comply with local laws, regulations, and supervisory requirements. The author is not liable
+  for any legal responsibility arising from users' use of this project.
+- For commercial, corporate, or production use, consult compliance/legal counsel and complete a review.
 
 ## License
 
-[MIT](./LICENSE) License &copy; 2024-PRESENT [Govin](https://github.com/guovin)
+[AGPL-3.0](./LICENSE) License &copy; 2024-PRESENT [Govin](https://github.com/guovin)
+
+> [!IMPORTANT]
+> This project is licensed under AGPL-3.0. If you operate a modified version as a network service (e.g., hosted service or publicly published container/image), you must provide users with the complete corresponding source code (including your modifications). See: https://www.gnu.org/licenses/agpl-3.0.html
